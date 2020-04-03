@@ -22,7 +22,7 @@ const Chat = ({ location }) => {
   const [users, setUsers] = useState("");
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
-  const ENDPOINT = "https://git.heroku.com/socket-io-starter.git";
+  const ENDPOINT = "https://socket-io-starter.herokuapp.com/";
   const QUERY = location.search;
 
   useEffect(() => {
